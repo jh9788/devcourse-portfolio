@@ -1,0 +1,64 @@
+
+h1 {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+   
+    background: linear-gradient(to right, #00c6ff, #0072ff); /* 그라데이션 배경 색상 */
+    color: #ffffff; /* 텍스트 색상 */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card_list{
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    display: grid;
+}
+
+.card{
+    
+    text-align: center;
+}
+
+.card_title {
+    font-size: 20px;
+}
+
+.card_button {
+    text-align: center;
+    font-size: 18px;
+    width: 150px;
+    height: 40px;
+}
+
+.card_img {
+    width: 300px;
+    height: 150px;
+}
+
+#description {
+    text-align: center;
+}
+
+
+.card_button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #0072ff; /* 기본 배경 색상 */
+    color: #ffffff;
+    transition: background-color 0.3s ease; /* 부드러운 트랜지션 효과 */
+}
+
+.card_button:hover {
+    background-color: #0056b3; /* 호버링 시의 배경 색상 */
